@@ -1,0 +1,284 @@
+.main-section{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-areas: "d1 d2 d3";
+    text-align: center;
+}
+.head-div2{
+    font-size: 23px;
+    padding-top: 18px;
+    word-spacing: 50px;
+}
+.head-div2 > span > a{
+    color: white;
+    text-decoration: none;
+    font-family: Hedvig Letters Serif;
+}
+.banner-image img{
+    width: 100%;
+    height: 750px;
+}
+.center-text{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    font-family: Old Standard TT;
+    color:yellow;
+}
+.center-text1{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    text-decoration: line-through;
+    color: yellow;
+}
+.sub-main-section{
+    display: grid;
+    grid-template-rows: repeat(3,33%);
+    grid-template-areas: "n1 n2 n3";
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+.head-2 h3{
+    font-family: Rock Salt;
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+}
+.material-symbols-outlined{
+    grid-area: n3;
+    color: white;  
+    padding-left: 60%; 
+    padding-top: 40px;   
+}
+.searchicon{
+    text-decoration: none;
+    color: white;
+}
+.image1{
+    width: 370px;
+    height: 350px;
+}   
+.maingrid1{
+    display: flex;
+    justify-content: center;
+}
+.tag{
+    font-size: 30px;
+    font-family: PT Serif;
+    padding-left: 35px;
+}
+.pros{
+    text-decoration: none;
+    color: black;
+}
+.first-button{
+    margin-left: 699px;  
+}
+.b1{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 25px;
+}
+.b1 h2{
+    color: white;
+    text-decoration: none;
+}
+.collection-section{
+    background-color: black;
+    height: 550px;
+}
+.collection-section > div:nth-child(1){
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3px;
+}
+.im1{
+    width: 370px;
+}
+.div-of-im1{
+    display: flex;
+    float: right;
+    padding-right: 130px;
+}
+.single{
+    height: 30px;
+    background-color: red;
+    height: 550px;
+}
+.single img{
+    width: 100%;
+}
+.limit{
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: yellow;
+    font-family: Pridi;
+    text-shadow: 5px 5px rgb(192, 150, 13);
+}
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+.footer .row a:hover{
+    color:#fff;
+}
+.footer .row ul{
+    width:100%;
+}
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+.footer .row a i{
+    margin:0% 3%;
+}
+.f1{
+    padding-top: 490px;
+}
+.head-only{
+    font-size: 40px;
+    padding-left: 450px;
+}
+.para-of-about-us{
+    font-size: 22px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-indent: 90px;
+    font-family: sans-serif;
+    color: white;
+}
+#specialid{
+    padding-top: 50px;
+}
+.main-product-section > h1{
+    font-family: Cabin Sketch;
+    font-size: 40px;
+    text-align-last: CENTER;
+    color: whitesmoke;
+}
+#grad{
+    background-image: conic-gradient(black, grey, black,grey, black);
+    height: 1000px;
+}
+.imagesfirst{
+    width: 500px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.main-product-section-2 > h3{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-product-section-2 > p{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    padding-left: 300px;
+    padding-right: 300px;
+    word-spacing: 11px;
+}
+.main-product-section-2 > h4{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+#sp{
+    color: rgba(227, 242, 174, 0.445);
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    word-spacing: 7px;
+}
+.price{
+    text-align: center;
+    color: yellow;
+}
+.buy{
+    text-align: center;
+    font-size: 35px;
+}
+.buyit{
+    color: white;
+    text-decoration: none;
+}
+.resell{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "r1 r2";
+}
+.div11{
+    grid-area: r1;
+    text-align: center;
+    color: white;
+}
+.div11 > h2{
+    font-size: 50px;
+}
+.div11 > p{
+    font-size: 23px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.div12{
+    grid-area: r2;
+    text-align: center;
+    color: white;
+}
+.div12 > h2{
+    font-size: 50px;
+}
+.div12 > p{
+    font-size: 23px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#div11id{
+    margin-top: 350px;
+}
